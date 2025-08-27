@@ -5,18 +5,22 @@ export const ERRORS = {
     },
     UNAUTHORIZED : {
         key: 'UNAUTHORIZED',
-        message: 'You are not authorized to access this resource'
+        message: 'You are not allowed to access this resource'
     },
     LOGIN_FAILED : {
         key: 'LOGIN_FAILED',
         message: 'Invalid username or password'
     },
-    GET_FAILED : {
+    GET_FAILED:{
         key: 'GET_FAILED',
-        message: 'Failed to fetch the data'
+        message: 'Failed to get the data'
     },
     USER_NOT_FOUND : {
         key: 'USER_NOT_FOUND',
         message: 'User not found'
+    },
+    INVALID_REQUEST_BODY_FORMAT:{
+        key: 'INVALID_REQUEST_BODY_FORMAT',
+        message: 'Invalid request body format'
     }
 }
